@@ -347,6 +347,8 @@ github.com/modern-go/reflect2 v1.0.1 h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9
 github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/mongodb-forks/golinters v0.0.4 h1:yhGuMXst1vFVJ0JEuSfgsoE7rXctr2AcX5kFgUeqVWk=
 github.com/mongodb-forks/golinters v0.0.4/go.mod h1:KzjC7OrCrRlFxufhH+kQ1Sdyzuj2eanHHzPaWxD3lgk=
+github.com/mongodb-labs/cobra2snooty v0.1.0 h1:qqw/twey0jF2dOZmQIReG/Zbh7QoINZwOdYeAq3hJP4=
+github.com/mongodb-labs/cobra2snooty v0.1.0/go.mod h1:6C6whv+hvozAl+4/2LHnS5nZC2hC6WroIidKmS0W25M=
 github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe/go.mod h1:wL8QJuTMNUDYhXwkmfOly8iTdp5TEcJFWZD2D7SIkUc=
 github.com/moricho/tparallel v0.2.1 h1:95FytivzT6rYzdJLdtfn6m1bfFJylOJK41+lgv/EHf4=
 github.com/moricho/tparallel v0.2.1/go.mod h1:fXEIZxG2vdfl0ZF8b42f5a78EhjjD5mX8qUplsoSU4k=

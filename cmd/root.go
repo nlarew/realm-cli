@@ -7,6 +7,7 @@ import (
 
 	"github.com/10gen/realm-cli/internal/cli"
 	"github.com/10gen/realm-cli/internal/commands"
+	"github.com/mongodb-labs/cobra2snooty"
 
 	"github.com/spf13/cobra"
 )
@@ -46,6 +47,15 @@ func Run() {
 	cmd.AddCommand(factory.Build(commands.Logs))
 	cmd.AddCommand(factory.Build(commands.Function))
 	cmd.AddCommand(factory.Build(commands.Schema))
+
+	const docsPermissions = 0766
+	if err := os.MkdirAll("./docs/command", docsPermissions); err != nil {
+		log.Fatal(err)
+	}
+
+	if err := cobra2snooty.GenSnootyTree(cmd, "./docs/command"); err != nil {
+		log.Fatal(err)
+	}
 
 	os.Exit(factory.Run(cmd))
 }

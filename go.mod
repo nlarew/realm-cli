@@ -17,6 +17,7 @@ require (
 	github.com/iancoleman/orderedmap v0.1.0
 	github.com/kr/pretty v0.2.1
 	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mongodb-labs/cobra2snooty v0.1.0 // indirect
 	github.com/segmentio/backo-go v0.0.0-20200129164019-23eae7c10bd3 // indirect
 	github.com/spf13/afero v1.1.2
 	github.com/spf13/cobra v1.1.3
